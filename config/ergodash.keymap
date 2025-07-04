@@ -15,7 +15,7 @@
 
 / {
     kscan0: kscan {
-        diode-direction = "col2raw";
+        diode-direction = "col2row";
     };
 
         keymap {
