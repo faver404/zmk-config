@@ -32,7 +32,7 @@
  * |------+------+------+------+------+------+---------------------------+------+------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |Space |                    | Space|   N  |   M  |   ,  |   .  |   ↑  | /    |
  * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
- * | Ctrl |LOWER | Raise| Alt |||||||| Win | /| Home |    ||||||         | End  |   @  | _ |||||||| ※ | ← |  ↓   |  →   |
+ * | Ctrl |LOWER | Raise| Alt  | Win  | del  | Home |     ||||||         | End  | enter|   _  |   ※  |   ←  |   ↓  |  →   |
  * .----------------------------------------------------------------------------------------------------------------------.
  */
                         bindings = <
@@ -40,7 +40,7 @@
 &kp  GRAVE    &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T        &kp  MINUS             &kp  EQUAL    &kp  Y        &kp  U        &kp  I            &kp  O        &kp  P        &kp  BSLH
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G        &kp  F5                &kp  F10      &kp  H        &kp  J        &kp  K            &kp  L        &kp  SEMI     &kp  SQT
 &kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  SPACE             &kp  SPACE    &kp  N        &kp  M        &kp  COMMA        &kp  DOT      &kp  UP       &kp  SLASH
-&kp  LCTRL    &mo LOWER     &mo  RAISE    &kp  LALT     &kp  LMETA    &kp  SLASH    &mo  HOME              &mo  END      &kp  AT       &kp  UNDER    &kp  KP_ASTERISK  &kp  LEFT     &kp  DOWN     &kp  RIGHT
+&kp  LCTRL    &mo LOWER     &mo  RAISE    &kp  LALT     &kp  LMETA    &kp  DEL    &mo  HOME              &mo  END      &kp  ENTER       &kp  UNDER    &kp  KP_ASTERISK  &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
                 };
                 lower_layer {
